@@ -1,0 +1,42 @@
+.navbar {
+    background-color: #000324;
+    opacity: 1;
+}
+
+.navbar-nav a {
+    color: white;
+    text-decoration: none;
+}
+
+.text-navbar {
+    border: 1px solid transparent;
+    color: white;
+}
+
+.text-navbar:hover {
+    border: 1px solid white;
+    color: white;
+}
+
+.navbar button {
+    color: white;
+}
+
+.navbar-nav li {
+    font-family: 'Dosis', sans-serif;
+    font-size: 20px;
+    text-align: center;
+    width: 100px;
+    height: 25px;
+    margin: 70px 10px 0px;
+}
+
+.navColor {
+    background: #000324 0% 0% no-repeat padding-box;
+    top: 0px;
+    bottom: 0px;
+    width: auto;
+    height: 120px;
+    justify-content: center;
+    align-items: flex-end;
+}
