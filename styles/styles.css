@@ -86,3 +86,13 @@
     margin-left: 5px;
     margin-right: 5px;
 }
+
+/* Room Section */
+.room-bg{
+    background-image: url(/assets/bg2.jpg);
+
+    height: 50%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
