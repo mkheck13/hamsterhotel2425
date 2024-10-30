@@ -16,30 +16,53 @@
 
 .text-navbar:hover {
     border: 1px solid white;
-    color: white;
+    color: #E5FEFF;
 }
 
 .navbar button {
     color: white;
 }
 
-.navbar-nav li {
-    font-family: 'Dosis', sans-serif;
-    font-size: 20px;
-    text-align: center;
-    width: 100px;
-    height: 25px;
-    margin: 70px 10px 0px;
+/* Responsive Navbar Stuff */
+@media (min-width:992px){
+    .navbar-nav li {
+        font-family: 'Dosis', sans-serif;
+        font-size: 20px;
+        text-align: center;
+        width: 100px;
+        margin: 70px 10px 0px;
+    }
+    .navColor {
+        background: #000324 0% 0% no-repeat padding-box;
+        top: 0px;
+        bottom: 0px;
+        width: auto;
+        height: 7.5rem;
+        justify-content: center;
+        align-items: flex-end;
+    }
 }
-
-.navColor {
-    background: #000324 0% 0% no-repeat padding-box;
-    top: 0px;
-    bottom: 0px;
-    width: auto;
-    height: 120px;
-    justify-content: center;
-    align-items: flex-end;
+@media (max-width: 991px){
+    .navbar-collapse{
+        background-color: #000324;
+        position: absolute;
+        top: 100%;
+        left: 0;
+        right: 0;
+        z-index: 1000;
+    }
+    .navbar-nav li{
+        font-family: 'Dosis', sans-serif;
+        font-size: 20px;
+        text-align: center;
+        width: 100px;
+        margin: 1rem 0;
+    }
+    .navColor{
+        background-color: #000324;
+        width: 100%;
+        padding: 1rem 0;
+    }
 }
 
 /* Hero Section */
@@ -58,7 +81,7 @@
     margin-top: 134px;
     margin-bottom: 134px;
     text-align: center;
-    color: white;
+    color: #E5FEFF;
     font-family: 'Dorsis', sans-serif;
     padding-top: 60px;
     padding-bottom: 60px;
@@ -174,7 +197,7 @@ h5 {
 /* Reserve Section */
 .reserve-box {
     background-color: #000324;
-    color: white;
+    color: #E5FEFF;
     font-family: 'Dosis', sans-serif;
     padding-top: 50px;
     margin-top: 100px;
@@ -197,6 +220,7 @@ h5 {
 
 .reserve-button {
     font-family: 'Source Sans 3', sans-serif;
+    color: white;
     font-size: small;
     font-weight: bold;
     padding: 10px;
@@ -205,7 +229,7 @@ h5 {
 /* Footer Section */
 .footer-bg{
     background-color: #000324;
-    color: white;
+    color: #E5FEFF;
     text-align: center;
     padding-top: 20px;
     padding-bottom: 50px;
