@@ -1,5 +1,3 @@
-
-
 /* Navbar */
 .navbar {
     background-color: #000324;
@@ -45,7 +43,7 @@
 }
 
 /* Hero Section */
-.bg-pool{
+.bg-pool {
     background-image: url(/assets/header.jpg);
     width: 100%;
     height: 500px;
@@ -53,34 +51,39 @@
     background-size: 100% 250%;
     background-position: 0% 55%;
 }
-.hero-box{
+
+.hero-box {
     background-color: #000324;
     opacity: 0.7;
     margin-top: 134px;
     margin-bottom: 134px;
     text-align: center;
     color: white;
-    font-family: 'Dorsis',sans-serif;
+    font-family: 'Dorsis', sans-serif;
     padding-top: 60px;
     padding-bottom: 60px;
     width: 50%;
 }
 
 /* Award Section */
-.award-section{
+.award-section {
     padding-top: 80px;
     padding-bottom: 80px;
 }
-.image-box{
+
+.image-box {
     text-align: right;
 }
-.award-box h1{
-    font-family: 'Dorsis',sans-serif;
+
+.award-box h1 {
+    font-family: 'Dorsis', sans-serif;
 }
-.award-box p{
+
+.award-box p {
     font-family: 'Source Sans 3', sans-serif;
 }
-.award-box img{
+
+.award-box img {
     width: 190px;
     padding-left: 25px;
     margin-left: 5px;
@@ -88,7 +91,7 @@
 }
 
 /* Room Section */
-.room-bg{
+.room-bg {
     background-image: url(/assets/bg2.jpg);
 
     height: 50%;
@@ -96,44 +99,54 @@
     background-size: cover;
     background-position: center;
 }
-.room-bg h1, h5{
+
+.room-bg h1,
+h5 {
     font-family: 'Dosis', sans-serif;
 }
-.card-box{
+
+.card-box {
     padding-top: 10px;
     padding-bottom: 60px;
 }
-.card-text{
+
+.card-text {
     list-style-position: inside;
     padding-left: 0;
     margin-left: 0;
 }
-.card-text li{
+
+.card-text li {
     font-size: small;
 }
-.card-padding{
+
+.card-padding {
     padding-bottom: 40px;
 }
 
 /* Package Section */
-.card-blue{
+.card-blue {
     color: #1F51A8;
 }
-.pack-text h5{
+
+.pack-text h5 {
     font-family: 'Dosis', sans-serif;
 }
-.pack-text p{
+
+.pack-text p {
     font-family: 'Source Sans 3', sans-serif;
 }
-.pack-border{
+
+.pack-border {
     border-radius: 0;
 }
-.card{
+
+.card {
     border: none;
 }
 
 /* Amenities Section */
-.amenities-bg{
+.amenities-bg {
     background-image: url(/assets/bg.jpg);
     background-size: cover;
     background-position: center;
@@ -141,26 +154,50 @@
     text-align: center;
     font-family: 'Dosis', sans-serif;
 }
-.amenities-bg h1{
+
+.amenities-bg h1 {
     padding-top: 30px;
 }
-.amenities-bg p{
+
+.amenities-bg p {
     padding-bottom: 25px;
 }
-.pad-bottom{
+
+.pad-bottom {
     padding-bottom: 100px;
 }
-.pad-bottom h5{
+
+.pad-bottom h5 {
     padding-top: 20px;
 }
 
 /* Reserve Section */
-.reserve-box{
+.reserve-box {
     background-color: #000324;
     color: white;
     font-family: 'Dosis', sans-serif;
     padding-top: 50px;
-    padding-bottom: 50px;
     margin-top: 100px;
+    margin-bottom: 100px;
+}
 
+.hamster-box {
+    background-image: url(/assets/hamsterreserve.jpg);
+    width: 100%;
+    height: 300px;
+    background-repeat: no-repeat;
+    background-size: 100% 250%;
+    background-position: 0% 55%;
+}
+
+.reserve-text {
+    font-family: 'Source Sans 3', sans-serif;
+    font-size: x-small;
+}
+
+.reserve-button {
+    font-family: 'Source Sans 3', sans-serif;
+    font-size: small;
+    font-weight: bold;
+    padding: 10px;
 }
