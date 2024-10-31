@@ -1,4 +1,4 @@
-/* Navbar */
+/* Navbar Start */
 .navbar {
     background-color: #000324;
     opacity: 1;
@@ -64,8 +64,9 @@
         padding: 1rem 0;
     }
 }
+/* Navbar End*/
 
-/* Hero Section */
+/* Hero Section Start*/
 .bg-pool {
     background-image: url(/assets/header.jpg);
     width: 100%;
@@ -87,8 +88,9 @@
     padding-bottom: 60px;
     width: 50%;
 }
+/* Hero Section End*/
 
-/* Award Section */
+/* Award Section Start*/
 .award-section {
     padding-top: 80px;
     padding-bottom: 80px;
@@ -112,25 +114,30 @@
     margin-left: 5px;
     margin-right: 5px;
 }
+/* Award Section End*/
 
-/* Room Section */
+/* Room Section Start*/
 .room-bg {
     background-image: url(/assets/bg2.jpg);
-
-    height: 50%;
+    min-height: 50vh;
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
+    background-attachment: fixed;
+}
+.room-card {
+    margin: 0;
 }
 
 .room-bg h1,
 h5 {
     font-family: 'Dosis', sans-serif;
+    color: white;
 }
 
 .card-box {
-    padding-top: 10px;
-    padding-bottom: 60px;
+    padding-top: 2rem;
+    padding-bottom: 4rem;
 }
 
 .card-text {
@@ -140,12 +147,25 @@ h5 {
 }
 
 .card-text li {
-    font-size: small;
+    font-size: 0.875rem;
+    line-height: 1.5;
+    padding-bottom: 0.25rem;
 }
 
 .card-padding {
-    padding-bottom: 40px;
+    padding-bottom: 2.5rem;
 }
+/* Responsive Room Cards */
+@media (max-width: 768px) {
+    .room-bg h1 {
+        font-size: 2rem;
+    }
+
+    .card-text li {
+        font-size: 0.75rem;
+    }
+}
+/* Room Section End*/
 
 /* Package Section */
 .card-blue {
@@ -166,6 +186,31 @@ h5 {
 
 .card {
     border: none;
+}
+.room-card {
+    width: 18rem;
+    border-radius: 0;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.room-card:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 10px 20px rgba(0,0,0,0.12);
+}
+
+.room-card img {
+    object-fit: cover;
+    height: 250px;
+}
+.room-btn {
+    transition: all 0.3s ease;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+}
+
+.room-btn:hover,
+.room-btn:focus {
+    transform: scale(1.05);
 }
 
 /* Amenities Section */
