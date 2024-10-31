@@ -98,14 +98,17 @@
 
 .image-box {
     text-align: right;
+    align-self: center;
 }
 
 .award-box h1 {
     font-family: 'Dorsis', sans-serif;
+    font-size: 30px;
 }
 
 .award-box p {
     font-family: 'Source Sans 3', sans-serif;
+    font-size: small;
 }
 
 .award-box img {
@@ -167,7 +170,7 @@ h5 {
 }
 /* Room Section End*/
 
-/* Package Section */
+/* Package Section Start */
 .card-blue {
     color: #1F51A8;
 }
@@ -212,8 +215,9 @@ h5 {
 .room-btn:focus {
     transform: scale(1.05);
 }
+/* Package Section End */
 
-/* Amenities Section */
+/* Amenities Section Start */
 .amenities-bg {
     background-image: url(/assets/bg.jpg);
     background-size: cover;
@@ -238,6 +242,21 @@ h5 {
 .pad-bottom h5 {
     padding-top: 20px;
 }
+.list ul{
+    list-style: none;
+}
+/* Amenities Responsiveness */
+@media screen and (max-width:767px) {
+    .amenities-text h5{
+        font-size: 12px;
+        text-align: center;
+    }
+    .amenities-img img{
+        width: 55%;
+    }
+}
+
+/* Amenities Section End */
 
 /* Reserve Section */
 .reserve-box {
