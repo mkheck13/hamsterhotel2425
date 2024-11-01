@@ -78,7 +78,7 @@
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
-    background-attachment: fixed;
+   
 }
 
 .hero-box {
@@ -175,6 +175,27 @@ h5 {
     padding-bottom: 2.5rem;
 }
 
+.room-card {
+    width: 18rem;
+    border-radius: 0;
+}
+
+.room-card img {
+    object-fit: cover;
+    height: 250px;
+}
+
+.room-btn {
+    transition: all 0.3s ease;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+}
+
+.room-btn:hover,
+.room-btn:focus {
+    transform: scale(1.05);
+}
+
 /* Responsive Room Cards */
 @media (max-width: 768px) {
     .room-bg h1 {
@@ -186,6 +207,15 @@ h5 {
     }
 }
 
+@media screen and (min-width:991px) {
+    .room-card{
+        transition: transform 0.3s ease, box-shadow 0.3s ease;
+    }
+    .room-card:hover {
+        transform: translateY(-10px);
+        box-shadow: 0 10px 20px rgba(0, 0, 0, 0.12);
+    }
+}
 /* Room Section End*/
 
 /* Package Section Start */
@@ -208,34 +238,6 @@ h5 {
 .card {
     border: none;
 }
-
-.room-card {
-    width: 18rem;
-    border-radius: 0;
-    transition: transform 0.3s ease, box-shadow 0.3s ease;
-}
-
-.room-card:hover {
-    transform: translateY(-10px);
-    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.12);
-}
-
-.room-card img {
-    object-fit: cover;
-    height: 250px;
-}
-
-.room-btn {
-    transition: all 0.3s ease;
-    text-transform: uppercase;
-    letter-spacing: 1px;
-}
-
-.room-btn:hover,
-.room-btn:focus {
-    transform: scale(1.05);
-}
-
 /* Package Section End */
 
 /* Amenities Section Start */
