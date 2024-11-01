@@ -14,7 +14,12 @@
 **Notes**: I was struggling with getting my Navbar to do what I wanted it to do. I used Claude AI to figure out my problem. I laid out my problem and how I wanted it to function, I then gave it the sippets of code that were tied to the navbar. It pointed out that my CSS had a height issue and how it could be fixed.
 
 ### Peer Review:
-**Name**: 
+**Name**: Alexander Soria
 
 **Comments**: 
+Absolutely phenominal website! The design excells beyond the protype with interactivity across the page, from the highlighted navbar buttons to the cards you can hover over. 
+Everything looks really nice and pretty here. I really love the static background images as you scroll. With the way they line up, it just feels like you're transitioning smoothly across the page with varying themes, that's really sick!
+Super responsive too! Love the way you handled the dropdown menu for the mobile version of the navbar. Not sure if this was intention but your reservations section is missing the main image preseant in the other formats, though this does put more center stage on the input boxes, which is good with how scrunched implementing the photo would be otherwise. 
+Also, it appears the text detailing the types of amenities in the hotel are slightly off-center to the right in the mobile version, which was probably the only real glaring issue I found with the site.
+Other than that one thing, amazing job!!!
 
