@@ -9,6 +9,8 @@
 
 **Github**: https://github.com/mkheck13/hamsterhotel2425
 
+**Vercel**: https://hamsterhotel2425.vercel.app/
+
 **Prototype**: https://xd.adobe.com/spec/3e3b745f-aa5a-460e-5fd7-8cc90c248d21-480a/screen/2bce9ed2-c1ed-4a71-ae23-37c1e019d677/
 
 **Notes**: I was struggling with getting my Navbar to do what I wanted it to do. I used Claude AI to figure out my problem. I laid out my problem and how I wanted it to function, I then gave it the sippets of code that were tied to the navbar. It pointed out that my CSS had a height issue and how it could be fixed.
@@ -23,3 +25,4 @@ Super responsive too! Love the way you handled the dropdown menu for the mobile 
 Also, it appears the text detailing the types of amenities in the hotel are slightly off-center to the right in the mobile version, which was probably the only real glaring issue I found with the site.
 Other than that one thing, amazing job!!!
 
+**Update**: I noticed that some of my images still had rounded borders, so I fixed that. Started to change my text size from px to rem. 
